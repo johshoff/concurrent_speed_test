@@ -1,0 +1,12 @@
+[root]
+name = "speed-test"
+version = "0.1.0"
+dependencies = [
+ "concurrent_queue 0.1.0 (git+https://github.com/johshoff/concurrent_queue.git)",
+]
+
+[[package]]
+name = "concurrent_queue"
+version = "0.1.0"
+source = "git+https://github.com/johshoff/concurrent_queue.git#c5b0608f64042e2738785195e67590d118462265"
+

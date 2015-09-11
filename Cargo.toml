@@ -1,0 +1,7 @@
+[package]
+name = "speed-test"
+version = "0.1.0"
+authors = ["Johannes Hoff <johshoff@gmail.com>"]
+
+[dependencies.concurrent_queue]
+git = "https://github.com/johshoff/concurrent_queue.git"
